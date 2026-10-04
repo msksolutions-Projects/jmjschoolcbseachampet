@@ -6,7 +6,7 @@ const images = [
   "/banner1.webp",
   "/banner2.webp",
   "/banner3.webp",
- 
+  "/banner4.webp",
 ];
 
 const SLIDE_DURATION = 6000;

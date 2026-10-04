@@ -1,19 +1,49 @@
 import React from "react";
 
-import img1 from "/celebrations1.webp";
-import img2 from "/celebrations2.webp";
-import img3 from "/celebrations3.webp";
-import img4 from "/celebrations4.webp";
-import img5 from "/celebrations5.webp";
-import img6 from "/celebrations6.webp";
+import img1 from "/gallery1.webp";
+import img2 from "/gallery2.webp";
+import img3 from "/gallery3.webp";
+import img4 from "/gallery4.webp";
+import img5 from "/gallery5.webp";
+import img6 from "/gallery6.webp";
+import img7 from "/gallery7.webp";
+import img8 from "/gallery8.webp";
+import img9 from "/gallery9.webp";
+import img10 from "/gallery10.webp";
+import img11 from "/gallery11.webp";
+import img12 from "/gallery12.webp";
+import img13 from "/gallery13.webp";
+import img14 from "/gallery14.webp";
+import img15 from "/gallery15.webp";
+import img16 from "/gallery16.webp";
+import img17 from "/gallery17.webp";
+import img18 from "/gallery18.webp";
+import img19 from "/gallery19.webp";
+import img20 from "/gallery20.webp";
+import img21 from "/gallery21.webp";
 
 const images = [
-  { id: 1, title: "Annual Day Celebration", src: img1 },
-  { id: 2, title: " Independence Day", src: img2 },
-  { id: 3, title: "Republic Day", src: img3 },
-  { id: 4, title: "Children's Day", src: img4 },
-  { id: 5, title: "Sports Day", src: img5 },
-  { id: 6, title: "Cultural Activities", src: img6 },
+  { id: 1, title: "School Building", src: img1 },
+  { id: 2, title: "Classroom Activities", src: img2 },
+  { id: 3, title: "Sports Event", src: img3 },
+  { id: 4, title: "Cultural Program", src: img4 },
+  { id: 5, title: "School Assembly", src: img5 },
+  { id: 6, title: "Library Section", src: img6 },
+  { id: 7, title: "Science Lab", src: img7 },
+  { id: 8, title: "Computer Lab", src: img8 },
+  { id: 9, title: "Playground", src: img9 },
+  { id: 10, title: "Auditorium", src: img10 },
+  { id: 11, title: "Student Activity", src: img11 },
+  { id: 12, title: "Annual Function", src: img12 },
+  { id: 13, title: "Morning Assembly", src: img13 },
+  { id: 14, title: "Group Activity", src: img14 },
+  { id: 15, title: "School Event", src: img15 },
+  { id: 16, title: "Annual Day", src: img16 },
+  { id: 17, title: "Sports Day", src: img17 },
+  { id: 18, title: "Cultural Activities", src: img18 },
+  { id: 19, title: "Independence Day", src: img19 },
+  { id: 20, title: "Republic Day", src: img20 },
+  { id: 21, title: "School Program", src: img21 },
 ];
 
 const GallerySection = () => {
@@ -51,9 +81,8 @@ const GallerySection = () => {
               <img
                 src={img.src}
                 alt={img.title}
-                loading="eager"
-  fetchpriority="high"
-  decoding="async"
+                loading="lazy"
+                decoding="async"
                 className="
                   w-full h-64
                   object-cover

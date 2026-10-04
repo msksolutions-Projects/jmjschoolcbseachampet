@@ -7,14 +7,20 @@ import {
 import principalImg from "/principal.webp";
 
 const principal = {
-  name: "SR. JOJJAMMA P",
+  name: "Sr. Arogya Gudipudi",
   role: "Principal",
-  message: `Welcome to JMJ School, Karunapuram, a place where education is imparted with care, commitment, and conscience. Our school stands firm on the values of impartiality, discipline, integrity, and respect for every individual.
+  message: `It gives me immense pleasure to welcome you to JMJ School CBSE, Achampet, a vibrant learning community committed to helping every child learn, grow, and succeed.
 
-  We believe that true education goes beyond textbooks. It shapes character, builds confidence, and prepares students to become responsible citizens of tomorrow.
+At JMJ, we see every student as an individual with unique abilities, dreams, and potential. Our responsibility as educators is not only to impart knowledge but also to create opportunities that encourage curiosity, creativity, communication, collaboration, and independent thinking.
 
-  With a strong emphasis on moral values and disciplined learning, we strive to nurture young minds to think critically, act ethically, and lead courageously.`,
-  quote: "Empowering minds, building futures",
+Following the CBSE curriculum, we strive to make learning meaningful, engaging, and connected to real life. Along with academic excellence, equal importance is given to life skills, co-curricular activities, physical well-being, leadership qualities, and character development. We want our students to become confident learners who are prepared to adapt, explore, and contribute positively to the world around them.
+
+Our teachers serve as mentors and facilitators, creating a supportive environment where children feel encouraged to ask questions, express their ideas, discover their strengths, and learn from every experience.
+
+We also value the partnership between school and parents, as we believe that the best outcomes are achieved when educators and families work together towards the growth and happiness of every child.
+
+At JMJ School CBSE, Achampet, our endeavour is to provide an education that inspires a love for learning today and builds a strong foundation for tomorrow.`,
+  quote: "Educating Minds, Enriching Lives",
 };
 
 export default function ManagementMessage() {

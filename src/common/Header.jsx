@@ -48,20 +48,20 @@ export default function Header() {
 <div className="bg-primary-dark text-white text-xs sm:text-sm">
   <div className="max-w-7xl mx-auto px-4 h-12 flex justify-between items-center">
     <div className="flex gap-6">
-      <a href="tel:+917981653340" className="flex items-center gap-2 hover:text-accent">
+      <a href="tel:+917386428393" className="flex items-center gap-2 hover:text-accent">
         <FontAwesomeIcon icon={faPhone} />
-        +91 79816 53340
+        +91 7386428393
       </a>
-      <a href="mailto:jmjcbseschool@gmail.com" className="hidden sm:flex items-center gap-2 hover:text-accent">
+      <a href="mailto:jmjachampetcbse@gmail.com" className="hidden sm:flex items-center gap-2 hover:text-accent">
         <FontAwesomeIcon icon={faEnvelope} />
-        jmjcbseschool@gmail.com
+        jmjachampetcbse@gmail.com
       </a>
     </div>
 
     {/* Updated Social Links */}
     <div className="flex gap-4 text-sm">
       <a 
-        href="https://www.facebook.com/profile.php?id=61588074985905" 
+        href="https://www.facebook.com/jmjschoolcbseachampet" 
         target="_blank" 
         rel="noopener noreferrer"
         className="hover:scale-110 transition hover:text-accent"
@@ -69,14 +69,21 @@ export default function Header() {
         <FontAwesomeIcon icon={faFacebookF} />
       </a>
       <a 
-        href="https://www.instagram.com/jmjschoolcbse/" 
+        href="https://www.instagram.com/jmjschoolcbseachampet" 
         target="_blank" 
         rel="noopener noreferrer"
         className="hover:scale-110 transition hover:text-accent"
       >
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-
+      <a 
+        href="https://youtu.be/RCNG9CS8SQs?si=o4XwvPEhKFz5cS8f" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="hover:scale-110 transition hover:text-accent"
+      >
+        <FontAwesomeIcon icon={faYoutube} />
+      </a>
     </div>
   </div>
 </div>
@@ -91,7 +98,7 @@ export default function Header() {
                 JMJ School CBSE
               </h1>
               <p className="text-xs text-text-muted">
-                Love • Joy • Service
+                To impart Education with Maximum Values at Minimum Fees
               </p>
             </div>
           </div>
@@ -131,7 +138,7 @@ export default function Header() {
             JMJ School CBSE
           </h2>
           <p className="text-xs text-text-muted">
-            Love • Joy • Service
+            To impart Education with Maximum Values at Minimum Fees
           </p>
         </div>
       </div>
