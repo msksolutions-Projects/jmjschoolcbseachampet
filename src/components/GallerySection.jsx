@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import img22 from "/gallery22.webp";
 import img23 from "/gallery23.webp";
 import img24 from "/gallery24.webp";
@@ -77,34 +76,34 @@ const GallerySection = () => {
     { id: "hostel", name: "Hostel", icon: "🏠", count: 11 },
     { id: "school", name: "School", icon: "🏫", count: 7 },
     { id: "sports", name: "Sports", icon: "⚽", count: 12 },
-    { id: "training", name: "Teachers Training", icon: "👨‍🏫", count: 3 },
+    { id: "training", name: "Teachers Training", icon: "👨‍🏫", count: 3 }
   ];
 
   const allPhotos = [
-    { id: 22, title: "Canonical Visitation 1", src: img22, event: "canonical" },
-    { id: 23, title: "Canonical Visitation 2", src: img23, event: "canonical" },
-    { id: 24, title: "Canonical Visitation 3", src: img24, event: "canonical" },
-    { id: 25, title: "Canonical Visitation 4", src: img25, event: "canonical" },
-    { id: 26, title: "Canonical Visitation 5", src: img26, event: "canonical" },
-    { id: 27, title: "Canonical Visitation 6", src: img27, event: "canonical" },
-    { id: 28, title: "Canonical Visitation 7", src: img28, event: "canonical" },
-    { id: 29, title: "Canonical Visitation 8", src: img29, event: "canonical" },
-    { id: 30, title: "Canonical Visitation 9", src: img30, event: "canonical" },
-    { id: 31, title: "Canonical Visitation 10", src: img31, event: "canonical" },
-    { id: 32, title: "Canonical Visitation 11", src: img32, event: "canonical" },
-    { id: 33, title: "Canonical Visitation 12", src: img33, event: "canonical" },
-    { id: 34, title: "Canonical Visitation 13", src: img34, event: "canonical" },
-    { id: 35, title: "Canonical Visitation 14", src: img35, event: "canonical" },
-    { id: 36, title: "Canonical Visitation 15", src: img36, event: "canonical" },
-    { id: 37, title: "Canonical Visitation 16", src: img37, event: "canonical" },
-    { id: 38, title: "Canonical Visitation 17", src: img38, event: "canonical" },
-    { id: 39, title: "Canonical Visitation 18", src: img39, event: "canonical" },
-    { id: 40, title: "Canonical Visitation 19", src: img40, event: "canonical" },
-    { id: 41, title: "Canonical Visitation 20", src: img41, event: "canonical" },
-    { id: 42, title: "Canonical Visitation 21", src: img42, event: "canonical" },
-    { id: 43, title: "Canonical Visitation 22", src: img43, event: "canonical" },
-    { id: 44, title: "Canonical Visitation 23", src: img44, event: "canonical" },
-    { id: 45, title: "Canonical Visitation 24", src: img45, event: "canonical" },
+    { id: 22, title: "Canonical 1", src: img22, event: "canonical" },
+    { id: 23, title: "Canonical 2", src: img23, event: "canonical" },
+    { id: 24, title: "Canonical 3", src: img24, event: "canonical" },
+    { id: 25, title: "Canonical 4", src: img25, event: "canonical" },
+    { id: 26, title: "Canonical 5", src: img26, event: "canonical" },
+    { id: 27, title: "Canonical 6", src: img27, event: "canonical" },
+    { id: 28, title: "Canonical 7", src: img28, event: "canonical" },
+    { id: 29, title: "Canonical 8", src: img29, event: "canonical" },
+    { id: 30, title: "Canonical 9", src: img30, event: "canonical" },
+    { id: 31, title: "Canonical 10", src: img31, event: "canonical" },
+    { id: 32, title: "Canonical 11", src: img32, event: "canonical" },
+    { id: 33, title: "Canonical 12", src: img33, event: "canonical" },
+    { id: 34, title: "Canonical 13", src: img34, event: "canonical" },
+    { id: 35, title: "Canonical 14", src: img35, event: "canonical" },
+    { id: 36, title: "Canonical 15", src: img36, event: "canonical" },
+    { id: 37, title: "Canonical 16", src: img37, event: "canonical" },
+    { id: 38, title: "Canonical 17", src: img38, event: "canonical" },
+    { id: 39, title: "Canonical 18", src: img39, event: "canonical" },
+    { id: 40, title: "Canonical 19", src: img40, event: "canonical" },
+    { id: 41, title: "Canonical 20", src: img41, event: "canonical" },
+    { id: 42, title: "Canonical 21", src: img42, event: "canonical" },
+    { id: 43, title: "Canonical 22", src: img43, event: "canonical" },
+    { id: 44, title: "Canonical 23", src: img44, event: "canonical" },
+    { id: 45, title: "Canonical 24", src: img45, event: "canonical" },
     { id: 46, title: "Field Trip 1", src: img46, event: "fieldtrip" },
     { id: 47, title: "Field Trip 2", src: img47, event: "fieldtrip" },
     { id: 48, title: "Field Trip 3", src: img48, event: "fieldtrip" },
@@ -143,9 +142,9 @@ const GallerySection = () => {
     { id: 81, title: "Sports 10", src: img81, event: "sports" },
     { id: 82, title: "Sports 11", src: img82, event: "sports" },
     { id: 83, title: "Sports 12", src: img83, event: "sports" },
-    { id: 84, title: "Teachers Training 1", src: img84, event: "training" },
-    { id: 85, title: "Teachers Training 2", src: img85, event: "training" },
-    { id: 86, title: "Teachers Training 3", src: img86, event: "training" },
+    { id: 84, title: "Training 1", src: img84, event: "training" },
+    { id: 85, title: "Training 2", src: img85, event: "training" },
+    { id: 86, title: "Training 3", src: img86, event: "training" }
   ];
 
   const videos = [
@@ -155,45 +154,30 @@ const GallerySection = () => {
     { id: 4, title: "Canonical Video 4", src: "/CV28.mp4" },
     { id: 5, title: "School Video 1", src: "/VID-20261006-WA0018.mp4" },
     { id: 6, title: "School Video 2", src: "/VID-20261006-WA0019.mp4" },
-    { id: 7, title: "School Video 3", src: "/VID-20261006-WA0020.mp4" },
+    { id: 7, title: "School Video 3", src: "/VID-20261006-WA0020.mp4" }
   ];
 
-  const filteredPhotos =
-    selectedEvent === "all"
-      ? allPhotos
-      : allPhotos.filter((photo) => photo.event === selectedEvent);
+  const filteredPhotos = selectedEvent === "all" ? allPhotos : allPhotos.filter((photo) => photo.event === selectedEvent);
 
   return (
     <section className="py-20 px-4 bg-slate-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
-            Our School Gallery
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Our School Gallery</h2>
           <div className="w-40 h-1 bg-primary mx-auto mt-4 rounded-full" />
-          <p className="mt-4 text-slate-500 text-sm md:text-base">
-            A glimpse into our vibrant campus life, achievements, and activities.
-          </p>
+          <p className="mt-4 text-slate-500 text-sm md:text-base">A glimpse into our vibrant campus life, achievements, and activities.</p>
         </div>
 
         <div className="flex justify-center gap-4 mb-12">
           <button
             onClick={() => setActiveTab("photos")}
-            className={`px-6 py-2 rounded-lg font-medium transition ${
-              activeTab === "photos"
-                ? "bg-primary text-white"
-                : "bg-white text-slate-700 border border-slate-300 hover:bg-slate-50"
-            }`}
+            className={`px-6 py-2 rounded-lg font-medium transition ${activeTab === "photos" ? "bg-primary text-white" : "bg-white text-slate-700 border border-slate-300"}`}
           >
             📷 Photos ({filteredPhotos.length})
           </button>
           <button
             onClick={() => setActiveTab("videos")}
-            className={`px-6 py-2 rounded-lg font-medium transition ${
-              activeTab === "videos"
-                ? "bg-primary text-white"
-                : "bg-white text-slate-700 border border-slate-300 hover:bg-slate-50"
-            }`}
+            className={`px-6 py-2 rounded-lg font-medium transition ${activeTab === "videos" ? "bg-primary text-white" : "bg-white text-slate-700 border border-slate-300"}`}
           >
             🎬 Videos ({videos.length})
           </button>
@@ -201,19 +185,13 @@ const GallerySection = () => {
 
         {activeTab === "photos" && (
           <div className="mb-12">
-            <h3 className="text-lg font-semibold text-slate-900 mb-4">
-              Select Event:
-            </h3>
+            <h3 className="text-lg font-semibold text-slate-900 mb-4">Select Event:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {events.map((event) => (
                 <button
                   key={event.id}
                   onClick={() => setSelectedEvent(event.id)}
-                  className={`p-4 rounded-xl font-medium transition text-left ${
-                    selectedEvent === event.id
-                      ? "bg-primary text-white shadow-lg"
-                      : "bg-white text-slate-700 border border-slate-300 hover:bg-slate-50"
-                  }`}
+                  className={`p-4 rounded-xl font-medium transition text-left ${selectedEvent === event.id ? "bg-primary text-white shadow-lg" : "bg-white text-slate-700 border border-slate-300"}`}
                 >
                   <div className="text-2xl mb-1">{event.icon}</div>
                   <div className="font-semibold text-sm">{event.name}</div>
@@ -225,42 +203,36 @@ const GallerySection = () => {
         )}
 
         {activeTab === "photos" && (
-          <div>
-            {filteredPhotos.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                {filteredPhotos.map((img) => (
-                  <div
-                    key={img.id}
-                    className="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                  >
-                    <img
-                      src={img.src}
-                      alt={img.title}
-                      loading="lazy"
-                      decoding="async"
-                      className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition" />
-                    <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur rounded-lg px-4 py-2 opacity-0 group-hover:opacity-100 transition">
-                      <h3 className="text-sm font-semibold text-slate-900 text-center">
-                        {img.title}
-                      </h3>
-                    </div>
-                  </div>
-                ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            {filteredPhotos.map((img) => (
+              <div key={img.id} className="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all">
+                <img src={img.src} alt={img.title} loading="lazy" className="w-full h-64 object-cover group-hover:scale-110 transition" />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition" />
+                <div className="absolute bottom-4 left-4 right-4 bg-white/90 rounded-lg px-4 py-2 opacity-0 group-hover:opacity-100 transition">
+                  <h3 className="text-sm font-semibold text-center">{img.title}</h3>
+                </div>
               </div>
-            ) : (
-              <div className="text-center py-12">
-                <p className="text-slate-500">No photos available</p>
-              </div>
-            )}
+            ))}
           </div>
         )}
 
         {activeTab === "videos" && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {videos.map((video) => (
-              <div
-                key={video.id}
-                className="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-              ></div>
+              <div key={video.id} className="group relative rounded-2xl overflow-hidden bg-white shadow-md">
+                <video controls className="w-full h-64 object-cover">
+                  <source src={video.src} type="video/mp4" />
+                </video>
+                <div className="bg-white p-4">
+                  <h3 className="text-sm font-semibold text-center">{video.title}</h3>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  );
+};
+
+export default GallerySection;
